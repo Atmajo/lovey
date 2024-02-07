@@ -5,6 +5,7 @@ const App = () => {
   const [image, setImage] = React.useState("roses.gif");
   const chgImage = () => {
     setImage("kissteady.gif");
+    setPadding(8);
   };
   const incPad = () => {
     setPadding(padding + 10);
