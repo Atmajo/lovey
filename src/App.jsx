@@ -1,7 +1,6 @@
 import React from "react";
 
 const App = () => {
-  dbConnect();
   const [padding, setPadding] = React.useState(8);
   const [image, setImage] = React.useState("roses.gif");
   const chgImage = () => {
