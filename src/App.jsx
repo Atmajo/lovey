@@ -1,6 +1,7 @@
 import React from "react";
 
 const App = () => {
+  dbConnect();
   const [padding, setPadding] = React.useState(8);
   const [image, setImage] = React.useState("roses.gif");
   const chgImage = () => {
@@ -18,7 +19,7 @@ const App = () => {
         </h1>
       </div>
       <div className="flex justify-center items-center mt-4 rounded-lg">
-        <img src={image} alt="roses" /* height={100} width={160}  */ />
+        <img src={image} alt="roses" />
       </div>
 
       <div className="flex justify-center items-center gap-32 mt-10">
